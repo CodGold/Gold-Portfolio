@@ -15,7 +15,50 @@
 }
 
 :root {
-  --mainColor: #fa780a;
+  --mainColor: #82b881;
+}
+
+@keyframes bgFadeOut {
+  0% {
+    background-color: var(--mainColor);
+  }
+
+  50% {
+    background-color: #a89d3b;
+  }
+  100% {
+    background-color: transparent;
+  }
+}
+@keyframes slideIn {
+  0% {
+    margin-left: 10%;
+  }
+
+  100% {
+    margin-left: 0%;
+  }
+}
+
+@keyframes heartBeat {
+  0% {
+    font-size: 36px;
+  }
+  25% {
+    font-size: 44px;
+  }
+
+  50% {
+    font-size: 36px;
+  }
+
+  75% {
+    font-size: 44px;
+  }
+
+  100% {
+    font-size: 36px;
+  }
 }
 
 span {
