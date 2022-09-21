@@ -9,46 +9,44 @@
   </head>
   <body>
     <div>
-      <span class="myName">What is your name?</span>
-      <button onclick="revealMyInfo('조동신입니다.', '.myName', '#123456')">
-        Confirm
+      <span class="myName">어느 쪽으로 가시겠습니까?</span>
+      <button onclick="revealMyInfo('정력왕', '.myName', '#123456')">산</button>
+      <button onclick="revealMyInfo('마린보이', '.myName', '#123456')">
+        바다
+      </button>
+    </div>
+    <div>
+      <span class="myLanguage">지구에 태어난 이유는?</span>
+      <button
+        onclick="revealMyInfo('나도 줘...', '.myLanguage', '#000000', 'heartBeat')"
+      >
+        돈
       </button>
       <button
-        onclick="revealMyInfo('내 이름은 Gold 입니다.', '.myName', '#123456')"
+        onclick="revealMyInfo('나랑 가족할래?', '.myLanguage', '#000000', 'slideIn')"
+      >
+        가족
+      </button>
+      <button
+        onclick="revealMyInfo('아이고 형님!!!', '.myLanguage', '#000000', 'bgFadeOut')"
+      >
+        권력
+      </button>
+    </div>
+    <div>
+      <span class="myJob">현재 직업은?</span>
+      <button
+        onclick="revealMyInfo('돈 많은 백수 (하고싶다...)', '.myJob', '#654321', 'heartBeat')"
+      >
+        랜덤
+      </button>
+    </div>
+    <div>
+      <span class="myFavorite">좋아하는 취미는?</span>
+      <button
+        onclick="revealMyInfo('책 읽기', '.myFavorite', '#000000', 'slideIn')"
       >
         확인
-      </button>
-    </div>
-    <div>
-      <span class="myLanguage">My foreign language skill is ...</span>
-      <button
-        onclick="revealMyInfo('En ★★★☆☆', '.myLanguage', '#000000', 'heartBeat')"
-      >
-        English
-      </button>
-      <button
-        onclick="revealMyInfo('Cn ★☆☆☆☆', '.myLanguage', '#000000', 'slideIn')"
-      >
-        Chinese
-      </button>
-      <button
-        onclick="revealMyInfo('Jp ★★★★☆', '.myLanguage', '#000000', 'bgFadeOut')"
-      >
-        Japanese
-      </button>
-    </div>
-    <div>
-      <span class="myJob">What is your job?</span>
-      <button
-        onclick="revealMyInfo('I am super ultra programmer.', '.myJob', '#654321')"
-      >
-        Confirm
-      </button>
-    </div>
-    <div>
-      <span class="myFavorite">What is your favorite?</span>
-      <button onclick="revealMyInfo('Zero Coke', '.myFavorite', '#000000')">
-        Confirm
       </button>
     </div>
     <script src="main.js"></script>
